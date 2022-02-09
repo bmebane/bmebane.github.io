@@ -1,2 +1,2 @@
-# comp333.github.io
+# bmebane.github.io
 COMP333 repo.
