@@ -1,46 +1,46 @@
-/* latin */
-@font-face {
-    font-family: 'Dangrek';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/dangrek/v24/LYjCdG30nEgoH8E2sCRgqHAtXN8.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-
 body {
-    background-color: #e4d2e4;
-}
-
-.header {
-    text-align: center;
-    background: #f9f7f7;
-    font-size: 20px;
-    margin: 0 auto;
-    padding: 0;
-  }
-
-h1 {
-    color: black;
-    text-align: center; 
-    font-family: 'Dangrek';
-}
-
-h5 {
-    color: #f9f7f7;
-}
-
-.flex-container {
-    display: flex;
-    flex-wrap: nowrap;
     background-color: orange;
 }
 
-.flex-container > div {
-    background-color: grey;
-    width: 200px;
-    margin: 10px;
+.site-header {
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    background: rosybrown;
+}
+
+.site-header .site-title {
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 16px;
+    font-size: 15px;
+}
+
+.site-header .site-navigation {
+    float: right;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.site-header .site-navigation li {
+    list-style: none;
+    top: 20px;
+    right: 16px;
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.site-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #D0DAEE;
 }
