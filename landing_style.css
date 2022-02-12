@@ -23,8 +23,8 @@ body {
 
 .site-header .site-navigation {
     float: right;
-    margin-top: 40px;
-    margin-right: 20px;
+    margin-top: 25px;
+    margin-right: 40px;
 }
 
 .site-header .site-navigation li {
@@ -34,6 +34,19 @@ body {
     display: inline;
     padding: 20px;
     font-size: 20px;
+    font-weight: 600;
+}
+
+.site-header .site-navigation a {
+    text-decoration: none;
+}
+
+.site-header .site-navigation a:visited {
+    color: black;
+}
+
+.site-header .site-navigation a:hover {
+    color: white;
 }
 
 .site-footer {
@@ -42,5 +55,12 @@ body {
     left: 0;
     width: 100%;
     height: 90px;
-    background-color: #D0DAEE;
+    background-color: rosybrown;
+}
+
+.site-footer .copyright {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 35px;
+    font-size: 15px;
 }
