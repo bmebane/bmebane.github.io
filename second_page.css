@@ -93,12 +93,16 @@ body {
     text-decoration: none;
 }
 
+.hero .button p {
+    top: -10%;
+}
+
 .hero .button a:visited {
     color: white;
 }
 
 .hero .button a:hover {
-    color: white;
+    color: black;
 }
 
 .hero .landing-text p {
