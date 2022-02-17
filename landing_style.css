@@ -65,13 +65,13 @@ body {
     height: 300px;
     position: absolute;
     margin: auto;
-    top: 0;
+    top: -20%;
     bottom: 0;
     left: 5%;
     /* right: 0; */
     font-family: 'Inter';
     text-align: center;
-    font-size: 25px;
+    font-size: 3.2vw;
 }
 
 .hero .button {
@@ -90,11 +90,22 @@ body {
 }
 
 .hero .landing-text p {
-    font-size: 17px;
+    font-size: 20px;
 }
 
-#iframe {
-    margin-left: 10px;
+#get-started {
+    font-style: italic;
+}
+
+.iframe {
+    width: 800px;
+    /* height: 0px; */
+    position: absolute;
+    margin: auto;
+    /* top: -20%; */
+    margin-left: 60%;
+    margin-right: 30%;
+    margin-top: 10%;
 }
 
 .site-footer {
