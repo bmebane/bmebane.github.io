@@ -155,11 +155,6 @@ footer a:hover {
     border-color:#8fbcbc;
 }
 
-footer .grid {
-    justify-content: space-between;
-    grid-template-columns: 55% 45%;
-}
-
 /* utilities. */
 
 .container {
@@ -183,4 +178,50 @@ footer .grid {
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+/* Tablets and under. */
+@media(max-width: 768px) {
+    .grid,
+    .showcase .grid,
+    .footer .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .showcase {
+        height: auto;
+    }
+
+    .showcase-text {
+        text-align: center;
+    }
+
+    .btn {
+        transform: translate(0, 30%);
+    }
+
+    footer p {
+        text-align: center;
+        /* margin-left: -40px;
+        text-align: justify; */
+    }
+    
+}
+
+/* Mobile. */
+@media(max-width: 500px) {
+    .navbar {
+        height: 100px;
+        width: 100%;
+    }
+
+    .navbar .flex {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        padding: 10px;
+    }
+
 }
